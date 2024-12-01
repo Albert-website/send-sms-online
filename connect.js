@@ -1,3 +1,4 @@
+const encryptedMessage = CryptoJS.AES.encrypt(message, encryptionKey).toString();
 $( document ).ready( function () {
     $(".send").click( function (e) {
         e.preventDefault();
